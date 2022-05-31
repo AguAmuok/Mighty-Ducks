@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imagenes/hockey2.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100vh;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgba(248, 248, 60, 0.911);
+    border: 0.5rem solid black;
+    margin-top: 3rem;
+    padding: 1rem;
+    height: 7rem;
+    width: 70rem;
+}
+
+h2{
+    display: flex; justify-content: center;
+    font-size: 2rem;
+    left: 45rem;
+    top: 47rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;    
+    height: 20rem;
+    width: 20rem;
+    background-image: url("../imagenes/logo.png");
+    background-position: center;
+    background-size: cover;
+    margin-right: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+.home{
+    text-decoration: none;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 2rem;
+    padding: 1.5rem 0rem;
+    font-size: 1.3rem;
+    border: solid 3px rgb(177, 177, 177);
+    height: 5rem; width: 10rem;
+    color: white; background-color: rgba(0, 0, 0, 0.904);
+    box-shadow: 0.3rem 1rem 0.03rem rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+
+.home:hover{
+    background-color:rgb(244,244,73);
+    color: black;
+    border: solid 3px black;
+}
+
+.about{
+    text-decoration: none;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 2rem;
+    padding: 1.5rem 0rem;
+    font-size: 1.3rem; 
+    border: solid 3px rgb(177, 177, 177);
+    height: 5rem; width: 10rem;
+    color: white; background-color: rgb(0, 0, 0);
+    box-shadow: 0.3rem 1rem 0.03rem rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.about:hover{
+    background-color: rgb(244,244,74) ;
+    color: black;
+    border: solid 3px black;
+}
+.contact{
+    text-decoration: none;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 2rem;
+    padding: 1.5rem 0rem;
+    font-size: 1.3rem;
+    border: solid 3px rgb(177, 177, 177);
+    height: 5rem; width: 10rem;
+    color: white; background-color: black; 
+    box-shadow: 0.3rem 1rem 0.03rem rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.contact:hover{
+    background-color: rgb(244,244,74);
+    color: black;
+    border: solid 3px black;
+}
+.rules{
+    text-decoration: none;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 2rem;
+    padding: 1.5rem 0rem;
+    font-size: 1.3rem;
+    border: solid 3px rgb(177, 177, 177);
+    height: 5rem; width: 10rem;
+    color: white; background-color: rgb(0, 0, 0);
+    box-shadow: 0.3rem 1rem 0.03rem rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.rules:hover{
+    background-color: rgb(240, 240, 44);
+    color: black;
+    border: solid 3px black;
+}
+.registration{
+    text-decoration: none;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 2rem;
+    padding: 1.5rem 0rem;
+    font-size: 1.3rem;
+    border: solid 3px rgb(177, 177, 177);
+    height: 5rem; width: 11rem;
+    color: white; background-color: rgb(0, 0, 0);
+    box-shadow: 0.3rem 1rem 0.03rem rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.registration:hover{
+    background-color: rgb(244,244,74);
+    color: black;
+    border: solid 3px black;
+}
+
+
+.game{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1.5rem 0rem 1.5rem;
+    font-size: 1.3rem;
+    border: solid 3px rgb(177, 177, 177);
+    height: 5rem; width: 12rem;
+    color: white; background-color: rgb(0, 0, 0);
+    box-shadow: 0.3rem 1rem 0.03rem rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.game:hover{
+    background-color: rgb(244,244,74);
+    color: black;
+    border: solid 3px black;
+}
+
+.volverhome{
+    text-decoration: none;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 3rem;
+    padding: 1.5rem 0rem;
+    font-size: 1.3rem;
+    border: solid 3px rgb(177, 177, 177);
+    height: 5rem; width: 8rem;
+    color: white; background-color: rgba(0, 0, 0, 0.904);
+    box-shadow: 0.3rem 1rem 0.03rem rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.volverhome:hover{
+    background-color: rgb(244,244,74);
+    color: black;
+    border: solid 3px black;
+}
+
+.img1{
+    display: flex;
+    align-content: center;
+    background-image: url(../imagenes/image1.jpg);
+    height: 45rem; width: 70rem;
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-start; 
+    box-shadow: 3rem 2rem 3rem rgba(0, 0, 0, 0.842);
+    margin: 3rem;
+    border-radius: 5%;
+}   
+
+.img2{
+    display: flex;
+    align-content: center;
+    background-image: url(../imagenes/hockey3.jpg);
+    height: 45rem; width: 70rem;
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-start; 
+    box-shadow: 3rem 2rem 3rem rgba(0, 0, 0, 0.842);
+    margin: 3rem;
+    border-radius: 5%;
+}
+
+.img3{
+    display: flex;
+    align-content: center;
+    background-image: url(../imagenes/hockey1.jpg);
+    height: 45rem; width: 70rem;
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-start; 
+    box-shadow: 3rem 2rem 3rem rgba(0, 0, 0, 0.842);
+    margin: 3rem;
+    border-radius: 5%;
+}
+.caja{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.parrafo1{
+    
+    background-color: rgba(248, 248, 60, 0.719);
+    margin: 3rem;
+    font-size: 1.7rem;
+    display: flex; justify-content: center;
+    padding: 3rem;
+    
+}
+
+
+
+.parrafo2{
+    background-color: rgba(248, 248, 60, 0.705);
+    margin: 3rem;
+    font-size: 1.7rem;
+    display: flex; justify-content: center;
+    padding: 3rem;
+}
+
+
+.parrafo3{
+    background-color: rgba(248, 248, 60, 0.616);
+    margin: 3rem;
+    font-size: 1.7rem;
+    display: flex; justify-content: center;
+    padding: 3rem;
+}
+
+footer{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;    
+    border: solid black 0.3rem;
+    background-color: rgba(248, 248, 60, 0.911);
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}    
+
+.subtitulo1{
+    margin: 1rem;
+    font-size: 1.7rem;
+    display: flex; justify-content: center;
+}
+
+.subtitulo2{
+    margin: 1rem;
+    font-size: 1.7rem;
+    display: flex; justify-content: center;
+}
+.subtitulo3{
+    margin: 1rem;
+    font-size: 1.7rem;
+    display: flex; justify-content: center;
+}
+
+
+/* ACA EMPIEZA Game Tabla  */
+.fall_all {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateX(-4rem);
+    
+}
+
+.fall{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 4rem;
+}
+.allgame{
+    
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 4rem ;
+}
+
+main{
+    display: flex;
+    align-items: center; justify-content: center;
+}
+
+table,tr,th,td{
+    font-size: 1.5rem;
+    height: 3rem;
+    text-align: center;
+    padding: 2rem;   
+}
+
+tbody tr td:hover {
+    background-color: #e4f82e;
+}
+
+h4{
+    font-size: 2rem;
+    display: flex; justify-content: center;
+}
+
+h5{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+    margin-left: 5rem;
+}
+
+.li1{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.parrafogame{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    width: 45rem;
+}
+    
+
+
+    /* Aca empieza rules */
+
+.ihf{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+
+.lista{
+    font-size: 1.5rem;
+    padding: 5rem;    
+}
+.parrafo_lista{
+    font-size: 1.5rem;
+    padding: 5rem;
+}
+
+h5{
+    display: flex; justify-content: flex-start;
+    font-size: 1.5rem;
+    margin: 0rem;
+}
+
+ul li{
+    list-style-type: circle;
+    list-style-position: inside;
+    
+}
+
+ol{
+    list-style-position: inside;
+}
+
+.lista_rules{
+    background-color: #e4f82eb6;
+    width: 60rem;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 5%;
+}
+
+.primeralinea {
+    text-indent: 2.5rem;}
+
+.maingame {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Aca empieza RegistrationForm  */
+
+fieldset{
+    border: none;
+}
+form{
+    flex-flow: wrap;
+    justify-content: flex-start;
+    background-color: rgba(248, 248, 60, 0.753);
+    padding: 2rem;
+    width: 44%; height: 50%;
+    border-radius: 5%; margin: 2rem;
+
+}
+
+label,input{
+    margin: .5rem;
+}
+.player{
+    width: 15rem;
+}
+
+.lastname{
+    width:15rem;
+}
+.street{
+
+    width: 39.5rem;
+}
+
+.city{
+    width: 21rem;
+}
+
+.zip{
+    width: 15.6rem;
+}
+
+.which{
+    font-size: 1.7rem;
+    margin-top:  2rem; 
+    margin-bottom: .5rem;
+}
+
+.closest{
+    font-size: 1.3rem;
+}
+.what_pos{
+    font-size: 1.7rem;
+    margin-top:  2rem; 
+    margin-bottom: .5rem;
+}
+
+.uniform{
+    font-size: 1.7rem;
+    margin-top:  2rem; 
+    margin-bottom: .5rem;
+}
+
+.parent{
+    width: 20rem;
+}
+
+.medium{
+    transform: translateX(1rem);
+}
+
+.Elarge{
+    transform: translateX(1.1rem);
+}
+/* MAPAS */
+.tabla_mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send{
+    width: 14rem;
+    
+    
+}
+.send:hover{
+    background-color: greenyellow;
+    
+}
+
+.mapas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgba(248, 248, 60, 0.753);
+    width: 45rem; height: 67rem; 
+    border: 0.5em solid;
+    padding: 2rem;  
+    
+}
+
+.ubi1:hover{
+margin: 1rem;
+}
+
+.ubi2:hover{
+    margin: 1rem;
+}
+
+.ubi3:hover{
+    margin: 1rem; 
+}
+
+.ubi4:hover{
+    margin: 1rem;
+}
+
+.ubi5:hover{
+    margin: 1rem;
+}
+.ubi6:hover{
+    margin: 1rem;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+}
+
+.show-data{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
